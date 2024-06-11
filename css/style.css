@@ -1,0 +1,26 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+#header {
+    background-image: url("../img/pha.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+
+}
+
+#logo {
+    text-decoration: none;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    padding: 2rem;
+}
+
+#navlinks {
+    display: flex;
+    list-style: none;
+}
