@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  
-  <link rel="stylesheet" href="./js/script.js">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body>
@@ -17,36 +20,20 @@
                 <a href="" id="logo">Stick 2 IT</a>
 
 
-                <!-- <p>Full width:</p>
-                <form class="example" action="/action_page.php">
-                  <input type="text" placeholder="Search.." name="search">
-                  <button type="submit"><i class="fa fa-search"></i></button>
-                </form> -->
-
-
-
-                <!-- send to the footer -->
-                <!-- <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-                    <input type="text" placeholder="Search.." name="search2">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                  </form> -->
-
-
                 <ul id="nav-list">
                     <!-- <li><a href="" class="nav-item">HOME</a>
           </li> -->
-                    <li><a href="" class="nav-item">ABOUT</a>
+                    <li><a href="#about" class="nav-item">ABOUT</a>
                     </li>
-                    <li><a href="" class="nav-item">FACILITIES</a>
+                    <li><a href="#facilities" class="nav-item">FACILITIES</a>
                     </li>
-                    <li><a href="" class="nav-item">SERVICE</a>
+                    <li><a href="#services" class="nav-item">SERVICE</a>
                     </li>
-                    <li><a href="" class="nav-item">COMMUNITY</a>
+                    <li><a href="#community" class="nav-item">COMMUNITY</a>
                     </li>
-                    <li><a href="" class="nav-item">MEMBERSHIP</a>
+                    <li><a href="#membership" class="nav-item">MEMBERSHIP</a>
                     </li>
-                    <button class="header-btn"><a href="">Log
-                            In</a></a></button>
+                    <button class="header-btn"><a href=""  id="login">Log In</a></a></button>
 
                     <!-- <button >Login</button> -->
                 </ul>
@@ -56,12 +43,12 @@
             <div class="header-text">
                 <h1>Welcome to Stick2It</h1>
                 <h2>The fitness hub for all <br>of your needs</h2>
-                <button class="header-btn">Join Now</button>
+                <button class="header-btn" id="login">Join Now</button>
             </div>
 
         </header>
 
-        <section class="works">
+        <section class="works" id="about">
             <div class="about-section">
                 <h1>About Us Page</h1>
                 <p>Some text about who we are and what we do.</p>
@@ -69,7 +56,7 @@
             </div>
             <h2 style="text-align:center">Our Team</h2>
             <div class="row">
-                <div class="column">
+                <div class="column1">
                     <div class="card">
                         <img src="./img/burn.jpg" alt="Jane" style="width:100%">
                         <div class="container">
@@ -82,27 +69,27 @@
                     </div>
                 </div>
 
-                <div class="column">
+                <div class="column1">
                     <div class="card">
-                        <img src="./img/bla4.jpg" alt="Alice" style="width:100%">
+                        <img src="./img/bla4.jpg" alt="Trainer" style="width:100%">
                         <div class="container">
-                            <h2>Mike Ross</h2>
+                            <h2>Alice Ross</h2>
                             <p class="title">Trainer</p>
                             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>mike@example.com</p>
+                            <p>alice@example.com</p>
                             <p><button class="button">Contact</button></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="column">
+                <div class="column1">
                     <div class="card">
-                        <img src="./img/gy.jpg" alt="May" style="width:100%">
+                        <img src="./img/gy.jpg" alt="Fitness Coach" style="width:100%">
                         <div class="container">
-                            <h2>John Doe</h2>
+                            <h2>May Doe</h2>
                             <p class="title">Fitness Coach</p>
                             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>john@example.com</p>
+                            <p>may@example.com</p>
                             <p><button class="button">Contact</button></p>
                         </div>
                     </div>
@@ -111,7 +98,7 @@
 
         </section>
 
-        <section class="faci">
+        <section class="faci" id="facilities">
             <h2>Top Notch Facilities</h2>
             <p>Our gym offers state-of-the-art equipment, spacious workout areas, and specialized studios <br>for a
                 variety of group classes. Members enjoy amenities like modern locker rooms, personalized training,<br>
@@ -121,24 +108,24 @@
 
 
             <div class="grid">
-                <div><img width="300" src="./img/gym.jpg" alt=""></div>
-                <div><img width="300" src="./img/gym1.jpg" alt=""></div>
-                <div><img width="300" src="./img/gym2.jpg" alt=""></div>
-                <div><img width="300" src="./img/gym3.jpg" alt=""></div>
-             </div>
-                <div class="grid">
-
-                <div><img width="300" src="./img/gym.jpg" alt=""></div>
-                <div><img width="300" src="./img/gym1.jpg" alt=""></div>
-                <div><img width="300" src="./img/gym2.jpg" alt=""></div>
-                <div><img width="300" src="./img/gym3.jpg" alt=""></div>
+                <div><img width="320" height="300" src="./img/gym.jpg" alt=""></div>
+                <div><img width="320" height="300" src="./img/gym1.jpg" alt=""></div>
+                <div><img width="320" height="300" src="./img/gym2.jpg" alt=""></div>
+                <div><img width="320" height="300" src="./img/gym3.jpg" alt=""></div>
             </div>
-           
+
+            <div class="grid">
+                <div><img width="320" height="300" src="./img/burn1.jpg" alt=""></div>
+                <div><img width="320" height="300" src="./img/burn6.jpg" alt=""></div>
+                <div><img width="320" height="300" src="./img/burn5.jpg" alt=""></div>
+                <div><img width="320" height="300" src="./img/burn4.jpg" alt=""></div>
+            </div>
+
         </section>
 
 
 
-        <section class="mem">
+        <section class="mem" id="membership">
             <h2>
                 Select a Membership
             </h2>
@@ -150,9 +137,9 @@
                     <li class="header">Silver Membership</li>
                     <li class="grey"> ₵500</li>
                     <li>Valid for one month</li>
-                    <li>5 sections per week</li>
+                    <li>4 sessions per week</li>
                     <li>No personal trainer</li>
-                    <li>2 aerobics sections per week</li>
+                    <li>1 aerobics session per week</li>
                     <li class="grey"><a href="#" class="button">SELECT</a></li>
                 </ul>
             </div>
@@ -162,9 +149,9 @@
                     <li class="header">Gold Membership</li>
                     <li class="grey">₵800 / month</li>
                     <li>Valid for one month</li>
-                    <li>5 sections per week</li>
+                    <li>6 session per week</li>
                     <li>No personal trainer</li>
-                    <li>2 aerobics sections per week</li>
+                    <li>2 aerobics sessions per week</li>
                     <li class="grey"><a href="#" class="button">SELECT</a></li>
                 </ul>
             </div>
@@ -174,9 +161,9 @@
                     <li class="header">Platinum Membership</li>
                     <li class="grey"> ₵1000 / month</li>
                     <li>Valid for one month</li>
-                    <li>5 sections per week</li>
-                    <li>No personal trainer</li>
-                    <li>2 aerobics sections per week</li>
+                    <li>7 session per week</li>
+                    <li>Personal trainer</li>
+                    <li>3/5 aerobics sessions per week</li>
                     <li class="grey"><a href="#" class="button">SELECT</a></li>
                 </ul>
             </div>
@@ -243,7 +230,7 @@
     </footer>
 
 
-  </div>
+    </div>
 
 </body>
 
