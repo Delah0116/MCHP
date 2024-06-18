@@ -208,15 +208,15 @@ body {
   display: flex;
   justify-content: row;
   justify-content: center;
-  gap: 2.5rem;
+  gap: rem;
   background-color: rgba(245, 245, 245, 0.192);
-  /* ;
-padding-left: 2rem;
-padding-right: 2rem; */
+
 }
 
 .grid img {
-  border-radius: 2rem;
+  border-radius: 8rem;
+  padding-left: 2rem;
+padding-right: 2rem;
 }
 
 /* payment/memvership plan */
@@ -224,7 +224,6 @@ padding-right: 2rem; */
 .mem {
   padding: 2.5rem;
   padding-top: 2.5rem;
-
 }
 
 .mem h2 {
@@ -327,7 +326,7 @@ padding-right: 2rem; */
 
 .footer {
   position: absolute;
-  top: 593%;
+  top: 670%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 1280px;
